@@ -1,0 +1,4 @@
+group("base") {
+  public_deps = [ "mini_chromium/base" ]
+}
+

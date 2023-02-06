@@ -1,0 +1,7 @@
+executable("hellworld") {
+  sources = [ "src/helloworld.cc" ]
+
+  deps = [
+    "third_party/mini_chromium:base",
+  ]
+}
